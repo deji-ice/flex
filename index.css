@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(5, 5, 55);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  left: 0px;
+  padding: 10px 20px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: black;
+}
+
+.right {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: aliceblue;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(190, 255, 233);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 30px;
+  position: relative;
+}
+
+aside {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  top: 100px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  z-index: 1;
+}
+
+.para {
+  font-size: 14px;
+  color: white;
+  margin-left: 70px;
+  display: flex;
+  padding: 20px;
+}
