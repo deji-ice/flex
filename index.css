@@ -49,8 +49,8 @@ button:hover {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -81,4 +81,20 @@ aside {
   margin-left: 70px;
   display: flex;
   padding: 20px;
+}
+
+#bars {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: pink;
+  }
+  #bars {
+    display: flex;
+  }
+  .right {
+    display: none;
+  }
 }
